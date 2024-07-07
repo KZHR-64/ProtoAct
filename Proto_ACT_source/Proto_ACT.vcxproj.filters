@@ -1,0 +1,636 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\main">
+      <UniqueIdentifier>{43f1f285-6c00-4045-81c0-c731d7aa3c9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\main">
+      <UniqueIdentifier>{5a723112-8fcb-43d1-a77d-a3a5da9511fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\effect">
+      <UniqueIdentifier>{c506a764-0c23-4847-896d-ca162b786cc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\character">
+      <UniqueIdentifier>{4cb76088-7365-421b-a242-fbbe2ce00570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\effect">
+      <UniqueIdentifier>{4a2245e9-b3b1-43b3-9a2c-9d4b8de006fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\player">
+      <UniqueIdentifier>{36c0a8b1-6077-4b84-86d0-b43ed6724345}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\player">
+      <UniqueIdentifier>{1b191bbd-b75b-48a0-b390-4116ef2cbb91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\bullet">
+      <UniqueIdentifier>{4091154c-0622-4a7b-a87b-768cd935a9c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\bullet">
+      <UniqueIdentifier>{6f070dae-3d16-42a1-8ae6-18a2db3ec6db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\map">
+      <UniqueIdentifier>{74502c09-1259-4435-bf21-f9917e022a78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\map">
+      <UniqueIdentifier>{aa39d69b-47b5-40fe-bcae-935ccff06a7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\enemy">
+      <UniqueIdentifier>{d3c66768-aca8-42b8-a9e7-24195292e7a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\enemy">
+      <UniqueIdentifier>{0bbc625a-d301-46a6-94d5-01ad9acc6e95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\item">
+      <UniqueIdentifier>{043c68fb-4990-4653-98ea-5272e800ccd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\item">
+      <UniqueIdentifier>{242bb7dc-cd0f-45ac-aabb-763de708f985}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\event">
+      <UniqueIdentifier>{509010e9-088e-4251-985e-c4ecf672c477}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\event">
+      <UniqueIdentifier>{1fd63a68-1f1b-469f-95d3-b82efd683b20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\system">
+      <UniqueIdentifier>{d3c9d5a6-0fa6-40de-bc13-f5ba5f8b1a69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\system">
+      <UniqueIdentifier>{259724b9-1cc1-45cc-8060-87a62344a2e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\tool">
+      <UniqueIdentifier>{67078f7a-be92-40fb-b488-ed3c26e530b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\tool">
+      <UniqueIdentifier>{a6493988-fcad-4324-be73-89ab92341744}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\character">
+      <UniqueIdentifier>{14399fbd-dc79-4d3f-9da0-fe2ebb8d16cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\enemy\enemylist">
+      <UniqueIdentifier>{2ef878a8-c41a-443f-9724-d88a30574bb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\enemy\enemylist">
+      <UniqueIdentifier>{fdf8eaa2-3c37-4780-897a-716744c3e8b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\camera">
+      <UniqueIdentifier>{080b0f9b-448b-4c0b-9cb9-4c5f3201b26c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\item\itemlist">
+      <UniqueIdentifier>{8eb2c66b-2428-4655-b4cc-f1f4d92a59ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\item\itemlist">
+      <UniqueIdentifier>{c2df5ce6-60b6-49c7-8415-4516c891aaaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\bullet\bulletlist">
+      <UniqueIdentifier>{da210806-9865-4545-831e-ddedb8e28731}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\bullet\bulletlist">
+      <UniqueIdentifier>{ad60defa-8407-47a8-9c2a-dafcf0b76e7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\effect\effectlist">
+      <UniqueIdentifier>{7ac3c7f0-c720-4e34-a897-819f8d4f546a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\effect\effectlist">
+      <UniqueIdentifier>{006cb7c1-73f0-483b-bad8-1a00fc87a72a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\map\mapchip">
+      <UniqueIdentifier>{5ba081a3-bd37-40af-bf2c-18766497895e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\map\mapchip">
+      <UniqueIdentifier>{31606e59-c62e-4420-a1b3-7896e0938e88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\camera">
+      <UniqueIdentifier>{1a7ba857-3929-4370-8840-c63cff2b599b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\event\eventlist">
+      <UniqueIdentifier>{d98d2582-6efc-4228-b62b-d10e061fe04a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\event\eventlist">
+      <UniqueIdentifier>{d2c89ab0-c7b8-40c0-b955-8275f8c9e26e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main\Game.h">
+      <Filter>ヘッダー ファイル\main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\Gameover.h">
+      <Filter>ヘッダー ファイル\main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\KeyConfig.h">
+      <Filter>ヘッダー ファイル\main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\Menu.h">
+      <Filter>ヘッダー ファイル\main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\ModeBase.h">
+      <Filter>ヘッダー ファイル\main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\Opening.h">
+      <Filter>ヘッダー ファイル\main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\Option.h">
+      <Filter>ヘッダー ファイル\main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\StageSelect.h">
+      <Filter>ヘッダー ファイル\main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\System.h">
+      <Filter>ヘッダー ファイル\main</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="character\CharacterBase.h">
+      <Filter>ヘッダー ファイル\character</Filter>
+    </ClInclude>
+    <ClInclude Include="map\AbstractMapChip.h">
+      <Filter>ヘッダー ファイル\map</Filter>
+    </ClInclude>
+    <ClInclude Include="map\MapChipManager.h">
+      <Filter>ヘッダー ファイル\map</Filter>
+    </ClInclude>
+    <ClInclude Include="map\AbstractBackground.h">
+      <Filter>ヘッダー ファイル\map</Filter>
+    </ClInclude>
+    <ClInclude Include="system\EnvSetting.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="system\Fps.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="system\Image.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="system\Key.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="system\Sound.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="effect\AbstractEffect.h">
+      <Filter>ヘッダー ファイル\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="effect\EffectManager.h">
+      <Filter>ヘッダー ファイル\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="main\ModeManager.h">
+      <Filter>ヘッダー ファイル\main</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\Display.h">
+      <Filter>ヘッダー ファイル\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\Calculation.h">
+      <Filter>ヘッダー ファイル\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="player\Player.h">
+      <Filter>ヘッダー ファイル\player</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy\AbstractEnemy.h">
+      <Filter>ヘッダー ファイル\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy\EnemyManager.h">
+      <Filter>ヘッダー ファイル\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet\AbstractBullet.h">
+      <Filter>ヘッダー ファイル\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet\BulletManager.h">
+      <Filter>ヘッダー ファイル\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="item\AbstractItem.h">
+      <Filter>ヘッダー ファイル\item</Filter>
+    </ClInclude>
+    <ClInclude Include="item\ItemManager.h">
+      <Filter>ヘッダー ファイル\item</Filter>
+    </ClInclude>
+    <ClInclude Include="event\AbstractEvent.h">
+      <Filter>ヘッダー ファイル\event</Filter>
+    </ClInclude>
+    <ClInclude Include="event\EventManager.h">
+      <Filter>ヘッダー ファイル\event</Filter>
+    </ClInclude>
+    <ClInclude Include="item\itemlist\DoorKey.h">
+      <Filter>ヘッダー ファイル\item\itemlist</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet\bulletlist\Aura.h">
+      <Filter>ヘッダー ファイル\bullet\bulletlist</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet\bulletlist\BombBlast.h">
+      <Filter>ヘッダー ファイル\bullet\bulletlist</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet\bulletlist\BreakBlast.h">
+      <Filter>ヘッダー ファイル\bullet\bulletlist</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet\bulletlist\ControlShoot.h">
+      <Filter>ヘッダー ファイル\bullet\bulletlist</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet\bulletlist\LockShoot.h">
+      <Filter>ヘッダー ファイル\bullet\bulletlist</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet\bulletlist\RocketHand.h">
+      <Filter>ヘッダー ファイル\bullet\bulletlist</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet\bulletlist\StraightShoot.h">
+      <Filter>ヘッダー ファイル\bullet\bulletlist</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy\enemylist\BeamWall.h">
+      <Filter>ヘッダー ファイル\enemy\enemylist</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy\enemylist\Cannon1.h">
+      <Filter>ヘッダー ファイル\enemy\enemylist</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy\enemylist\Cannon2.h">
+      <Filter>ヘッダー ファイル\enemy\enemylist</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy\enemylist\CloudBit.h">
+      <Filter>ヘッダー ファイル\enemy\enemylist</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy\enemylist\DekaKurhei.h">
+      <Filter>ヘッダー ファイル\enemy\enemylist</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy\enemylist\Desdragud.h">
+      <Filter>ヘッダー ファイル\enemy\enemylist</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy\enemylist\DesdragudArm.h">
+      <Filter>ヘッダー ファイル\enemy\enemylist</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy\enemylist\Erhei1.h">
+      <Filter>ヘッダー ファイル\enemy\enemylist</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy\enemylist\Erhei2.h">
+      <Filter>ヘッダー ファイル\enemy\enemylist</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy\enemylist\Erhei3.h">
+      <Filter>ヘッダー ファイル\enemy\enemylist</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy\enemylist\Erhei4.h">
+      <Filter>ヘッダー ファイル\enemy\enemylist</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy\enemylist\FallBomb.h">
+      <Filter>ヘッダー ファイル\enemy\enemylist</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy\enemylist\FallBomb2.h">
+      <Filter>ヘッダー ファイル\enemy\enemylist</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy\enemylist\HomingMissile.h">
+      <Filter>ヘッダー ファイル\enemy\enemylist</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy\enemylist\Kurhei1.h">
+      <Filter>ヘッダー ファイル\enemy\enemylist</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy\enemylist\Kurhei2.h">
+      <Filter>ヘッダー ファイル\enemy\enemylist</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy\enemylist\Missile.h">
+      <Filter>ヘッダー ファイル\enemy\enemylist</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy\enemylist\NoMove.h">
+      <Filter>ヘッダー ファイル\enemy\enemylist</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy\enemylist\RaidCloud.h">
+      <Filter>ヘッダー ファイル\enemy\enemylist</Filter>
+    </ClInclude>
+    <ClInclude Include="camera\Camera.h">
+      <Filter>ヘッダー ファイル\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="map\mapchip\BombBlock.h">
+      <Filter>ヘッダー ファイル\map\mapchip</Filter>
+    </ClInclude>
+    <ClInclude Include="map\mapchip\FallBlock.h">
+      <Filter>ヘッダー ファイル\map\mapchip</Filter>
+    </ClInclude>
+    <ClInclude Include="map\mapchip\FuseBlock.h">
+      <Filter>ヘッダー ファイル\map\mapchip</Filter>
+    </ClInclude>
+    <ClInclude Include="map\mapchip\LockedDoor.h">
+      <Filter>ヘッダー ファイル\map\mapchip</Filter>
+    </ClInclude>
+    <ClInclude Include="map\mapchip\MassDriver.h">
+      <Filter>ヘッダー ファイル\map\mapchip</Filter>
+    </ClInclude>
+    <ClInclude Include="map\mapchip\NormalBlock.h">
+      <Filter>ヘッダー ファイル\map\mapchip</Filter>
+    </ClInclude>
+    <ClInclude Include="map\mapchip\PushBlock.h">
+      <Filter>ヘッダー ファイル\map\mapchip</Filter>
+    </ClInclude>
+    <ClInclude Include="map\mapchip\SpinMassDriver.h">
+      <Filter>ヘッダー ファイル\map\mapchip</Filter>
+    </ClInclude>
+    <ClInclude Include="effect\effectlist\BlackOut.h">
+      <Filter>ヘッダー ファイル\effect\effectlist</Filter>
+    </ClInclude>
+    <ClInclude Include="effect\effectlist\Explode.h">
+      <Filter>ヘッダー ファイル\effect\effectlist</Filter>
+    </ClInclude>
+    <ClInclude Include="effect\effectlist\Smoke.h">
+      <Filter>ヘッダー ファイル\effect\effectlist</Filter>
+    </ClInclude>
+    <ClInclude Include="event\eventlist\ClearEvent.h">
+      <Filter>ヘッダー ファイル\event\eventlist</Filter>
+    </ClInclude>
+    <ClInclude Include="event\eventlist\EffectSettingEvent.h">
+      <Filter>ヘッダー ファイル\event\eventlist</Filter>
+    </ClInclude>
+    <ClInclude Include="event\eventlist\EnemySettingEvent.h">
+      <Filter>ヘッダー ファイル\event\eventlist</Filter>
+    </ClInclude>
+    <ClInclude Include="event\eventlist\MissEvent.h">
+      <Filter>ヘッダー ファイル\event\eventlist</Filter>
+    </ClInclude>
+    <ClInclude Include="event\eventlist\PlayerMoveEvent.h">
+      <Filter>ヘッダー ファイル\event\eventlist</Filter>
+    </ClInclude>
+    <ClInclude Include="event\eventlist\PlayMusicEvent.h">
+      <Filter>ヘッダー ファイル\event\eventlist</Filter>
+    </ClInclude>
+    <ClInclude Include="event\eventlist\ScrollResetEvent.h">
+      <Filter>ヘッダー ファイル\event\eventlist</Filter>
+    </ClInclude>
+    <ClInclude Include="event\eventlist\ScrollSettingEvent.h">
+      <Filter>ヘッダー ファイル\event\eventlist</Filter>
+    </ClInclude>
+    <ClInclude Include="event\eventlist\TalkEvent.h">
+      <Filter>ヘッダー ファイル\event\eventlist</Filter>
+    </ClInclude>
+    <ClInclude Include="event\eventlist\WaitBattleEvent.h">
+      <Filter>ヘッダー ファイル\event\eventlist</Filter>
+    </ClInclude>
+    <ClInclude Include="event\eventlist\WaitEvent.h">
+      <Filter>ヘッダー ファイル\event\eventlist</Filter>
+    </ClInclude>
+    <ClInclude Include="effect\effectlist\LightSphere.h">
+      <Filter>ヘッダー ファイル\effect\effectlist</Filter>
+    </ClInclude>
+    <ClInclude Include="effect\effectlist\MarkPoint.h">
+      <Filter>ヘッダー ファイル\effect\effectlist</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main\Game.cpp">
+      <Filter>ソース ファイル\main</Filter>
+    </ClCompile>
+    <ClCompile Include="main\Gameover.cpp">
+      <Filter>ソース ファイル\main</Filter>
+    </ClCompile>
+    <ClCompile Include="main\KeyConfig.cpp">
+      <Filter>ソース ファイル\main</Filter>
+    </ClCompile>
+    <ClCompile Include="main\Menu.cpp">
+      <Filter>ソース ファイル\main</Filter>
+    </ClCompile>
+    <ClCompile Include="main\ModeBase.cpp">
+      <Filter>ソース ファイル\main</Filter>
+    </ClCompile>
+    <ClCompile Include="main\Opening.cpp">
+      <Filter>ソース ファイル\main</Filter>
+    </ClCompile>
+    <ClCompile Include="main\Option.cpp">
+      <Filter>ソース ファイル\main</Filter>
+    </ClCompile>
+    <ClCompile Include="main\StageSelect.cpp">
+      <Filter>ソース ファイル\main</Filter>
+    </ClCompile>
+    <ClCompile Include="main\System.cpp">
+      <Filter>ソース ファイル\main</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="system\EnvSetting.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="system\Fps.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="system\Image.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="system\Key.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="system\Sound.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="effect\AbstructEffect.cpp">
+      <Filter>ソース ファイル\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="effect\EffectManager.cpp">
+      <Filter>ソース ファイル\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="main\ModeManager.cpp">
+      <Filter>ソース ファイル\main</Filter>
+    </ClCompile>
+    <ClCompile Include="tool\Display.cpp">
+      <Filter>ソース ファイル\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="character\CharacterBase.cpp">
+      <Filter>ソース ファイル\character</Filter>
+    </ClCompile>
+    <ClCompile Include="player\Player.cpp">
+      <Filter>ソース ファイル\player</Filter>
+    </ClCompile>
+    <ClCompile Include="tool\Calculation.cpp">
+      <Filter>ソース ファイル\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy\AbstructEnemy.cpp">
+      <Filter>ソース ファイル\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy\EnemyManager.cpp">
+      <Filter>ソース ファイル\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet\AbstructBullet.cpp">
+      <Filter>ソース ファイル\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet\BulletManager.cpp">
+      <Filter>ソース ファイル\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="item\AbstractItem.cpp">
+      <Filter>ソース ファイル\item</Filter>
+    </ClCompile>
+    <ClCompile Include="item\ItemManager.cpp">
+      <Filter>ソース ファイル\item</Filter>
+    </ClCompile>
+    <ClCompile Include="map\AbstractMapChip.cpp">
+      <Filter>ソース ファイル\map</Filter>
+    </ClCompile>
+    <ClCompile Include="map\MapChipManager.cpp">
+      <Filter>ソース ファイル\map</Filter>
+    </ClCompile>
+    <ClCompile Include="event\AbstractEvent.cpp">
+      <Filter>ソース ファイル\event</Filter>
+    </ClCompile>
+    <ClCompile Include="event\EventManager.cpp">
+      <Filter>ソース ファイル\event</Filter>
+    </ClCompile>
+    <ClCompile Include="item\itemlist\DoorKey.cpp">
+      <Filter>ソース ファイル\item\itemlist</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet\bulletlist\Aura.cpp">
+      <Filter>ソース ファイル\bullet\bulletlist</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet\bulletlist\BombBlast.cpp">
+      <Filter>ソース ファイル\bullet\bulletlist</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet\bulletlist\BreakBlast.cpp">
+      <Filter>ソース ファイル\bullet\bulletlist</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet\bulletlist\ControlShoot.cpp">
+      <Filter>ソース ファイル\bullet\bulletlist</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet\bulletlist\LockShoot.cpp">
+      <Filter>ソース ファイル\bullet\bulletlist</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet\bulletlist\RocketHand.cpp">
+      <Filter>ソース ファイル\bullet\bulletlist</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet\bulletlist\StraightShoot.cpp">
+      <Filter>ソース ファイル\bullet\bulletlist</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy\enemylist\BeamWall.cpp">
+      <Filter>ソース ファイル\enemy\enemylist</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy\enemylist\Cannon1.cpp">
+      <Filter>ソース ファイル\enemy\enemylist</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy\enemylist\Cannon2.cpp">
+      <Filter>ソース ファイル\enemy\enemylist</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy\enemylist\CloudBit.cpp">
+      <Filter>ソース ファイル\enemy\enemylist</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy\enemylist\DekaKurhei.cpp">
+      <Filter>ソース ファイル\enemy\enemylist</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy\enemylist\Desdragud.cpp">
+      <Filter>ソース ファイル\enemy\enemylist</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy\enemylist\DesdragudArm.cpp">
+      <Filter>ソース ファイル\enemy\enemylist</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy\enemylist\Erhei1.cpp">
+      <Filter>ソース ファイル\enemy\enemylist</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy\enemylist\Erhei2.cpp">
+      <Filter>ソース ファイル\enemy\enemylist</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy\enemylist\Erhei3.cpp">
+      <Filter>ソース ファイル\enemy\enemylist</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy\enemylist\Erhei4.cpp">
+      <Filter>ソース ファイル\enemy\enemylist</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy\enemylist\FallBomb.cpp">
+      <Filter>ソース ファイル\enemy\enemylist</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy\enemylist\FallBomb2.cpp">
+      <Filter>ソース ファイル\enemy\enemylist</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy\enemylist\HomingMissile.cpp">
+      <Filter>ソース ファイル\enemy\enemylist</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy\enemylist\Kurhei1.cpp">
+      <Filter>ソース ファイル\enemy\enemylist</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy\enemylist\Kurhei2.cpp">
+      <Filter>ソース ファイル\enemy\enemylist</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy\enemylist\Missile.cpp">
+      <Filter>ソース ファイル\enemy\enemylist</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy\enemylist\NoMove.cpp">
+      <Filter>ソース ファイル\enemy\enemylist</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy\enemylist\RaidCloud.cpp">
+      <Filter>ソース ファイル\enemy\enemylist</Filter>
+    </ClCompile>
+    <ClCompile Include="map\mapchip\BombBlock.cpp">
+      <Filter>ソース ファイル\map\mapchip</Filter>
+    </ClCompile>
+    <ClCompile Include="map\mapchip\FallBlock.cpp">
+      <Filter>ソース ファイル\map\mapchip</Filter>
+    </ClCompile>
+    <ClCompile Include="map\mapchip\FuseBlock.cpp">
+      <Filter>ソース ファイル\map\mapchip</Filter>
+    </ClCompile>
+    <ClCompile Include="map\mapchip\LockedDoor.cpp">
+      <Filter>ソース ファイル\map\mapchip</Filter>
+    </ClCompile>
+    <ClCompile Include="map\mapchip\MassDriver.cpp">
+      <Filter>ソース ファイル\map\mapchip</Filter>
+    </ClCompile>
+    <ClCompile Include="map\mapchip\NormalBlock.cpp">
+      <Filter>ソース ファイル\map\mapchip</Filter>
+    </ClCompile>
+    <ClCompile Include="map\mapchip\PushBlock.cpp">
+      <Filter>ソース ファイル\map\mapchip</Filter>
+    </ClCompile>
+    <ClCompile Include="map\mapchip\SpinMassDriver.cpp">
+      <Filter>ソース ファイル\map\mapchip</Filter>
+    </ClCompile>
+    <ClCompile Include="camera\Camera.cpp">
+      <Filter>ソース ファイル\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="effect\effectlist\BlackOut.cpp">
+      <Filter>ソース ファイル\effect\effectlist</Filter>
+    </ClCompile>
+    <ClCompile Include="effect\effectlist\Explode.cpp">
+      <Filter>ソース ファイル\effect\effectlist</Filter>
+    </ClCompile>
+    <ClCompile Include="effect\effectlist\Smoke.cpp">
+      <Filter>ソース ファイル\effect\effectlist</Filter>
+    </ClCompile>
+    <ClCompile Include="event\eventlist\ClearEvent.cpp">
+      <Filter>ソース ファイル\event\eventlist</Filter>
+    </ClCompile>
+    <ClCompile Include="event\eventlist\EffectSettingEvent.cpp">
+      <Filter>ソース ファイル\event\eventlist</Filter>
+    </ClCompile>
+    <ClCompile Include="event\eventlist\EnemySettingEvent.cpp">
+      <Filter>ソース ファイル\event\eventlist</Filter>
+    </ClCompile>
+    <ClCompile Include="event\eventlist\MissEvent.cpp">
+      <Filter>ソース ファイル\event\eventlist</Filter>
+    </ClCompile>
+    <ClCompile Include="event\eventlist\PlayerMoveEvent.cpp">
+      <Filter>ソース ファイル\event\eventlist</Filter>
+    </ClCompile>
+    <ClCompile Include="event\eventlist\PlayMusicEvent.cpp">
+      <Filter>ソース ファイル\event\eventlist</Filter>
+    </ClCompile>
+    <ClCompile Include="event\eventlist\ScrollResetEvent.cpp">
+      <Filter>ソース ファイル\event\eventlist</Filter>
+    </ClCompile>
+    <ClCompile Include="event\eventlist\ScrollSettingEvent.cpp">
+      <Filter>ソース ファイル\event\eventlist</Filter>
+    </ClCompile>
+    <ClCompile Include="event\eventlist\TalkEvent.cpp">
+      <Filter>ソース ファイル\event\eventlist</Filter>
+    </ClCompile>
+    <ClCompile Include="event\eventlist\WaitBattleEvent.cpp">
+      <Filter>ソース ファイル\event\eventlist</Filter>
+    </ClCompile>
+    <ClCompile Include="event\eventlist\WaitEvent.cpp">
+      <Filter>ソース ファイル\event\eventlist</Filter>
+    </ClCompile>
+    <ClCompile Include="effect\effectlist\LightSphere.cpp">
+      <Filter>ソース ファイル\effect\effectlist</Filter>
+    </ClCompile>
+    <ClCompile Include="effect\effectlist\MarkPoint.cpp">
+      <Filter>ソース ファイル\effect\effectlist</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

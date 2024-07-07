@@ -1,0 +1,16 @@
+0,ground.png,7,2,32,32
+1,ground2.png,7,2,32,32
+2,through.png,1,1,32,32
+3,break_block.png,1,1,64,64
+4,hard_block.png,1,1,32,32
+5,bomb_block.png,1,1,32,32
+6,conveyer.png,1,1,32,32
+7,door.png,1,1,32,128
+8,conveyer.png,1,1,32,32
+9,conveyer.png,1,1,32,32
+10,push_block.png,1,1,64,64
+11,warpdoor.png,1,1,64,96
+12,massdriver.png,1,1,64,64
+13,road.png,3,3,32,32
+14,factory.png,3,3,32,32
+15,ice_block.png,3,3,32,32
